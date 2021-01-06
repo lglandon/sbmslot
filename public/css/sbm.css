@@ -1,0 +1,100 @@
+body {
+  background-color: #0e0e0e;
+  background-image: url(../images/casino.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-height: 900px;
+}
+
+@font-face {
+  font-family: s7;
+  src: url(7segment.woff);
+}
+
+#slot-machine {
+  margin: 0px auto 0px auto;
+  position: relative;
+  top:-40px;
+}
+
+#masque {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 0px auto 0px auto;
+  top: -480px;
+  z-index: 10;
+}
+
+
+#playarea {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  position: relative;
+  top:-460px;
+  z-index: 100;
+}
+#play-button {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  position: relative;
+  z-index: 100;
+}
+
+#user {
+  display: block;
+  color: beige;
+  text-align: left;
+
+}
+
+#points {
+  display: block;
+  color: beige;
+  text-align: left;
+}
+
+#totalpoint{
+  font: 16px/1 s7,monospace;
+  color: #33eead;
+  text-shadow: #444 0.4px 1px 1px;
+  text-align: left;
+}
+
+#win {
+  display: block;
+  color: beige;
+  text-align: right;
+}
+
+#lastwin {
+  font: 16px/1 s7,monospace;
+  color: #b3051f;
+  text-shadow: #444 0.4px 1px 1px;
+  text-align: right;
+}
+
+.header {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+
+.solde {
+  margin: 0 auto;
+  padding-top: 5px;
+  font: 32px/1 s7,monospace;
+  color: #39E;
+  text-shadow: #444 0.4px 1px 1px;
+  text-align: right;
+}
+
+.lastgame {
+  font: 24px/1 s7,monospace;
+  color: #ff0000;
+  text-shadow: #444 0.4px 1px 1px;
+  text-align: right;
+}
