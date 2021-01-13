@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>SBM / Oracle Home</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        html, body {
+            height: 100%;
+            background-color: #0e0e0e;
+            background-image: url(../images/casino-monaco.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<div class="d-flex h-100">
+    <!-- login box -->
+    <div class="m-auto" style="background-color: rgba(60,60,60,0.8); padding: 20px; color: white; width: 600px; height: 300px;">
+        <h1 style="text-align: center;">{{USER}}</h1>
+        <hr style="border-top: 1px solid white">
+        <h6 style="text-align: center;">Vous avez : <b>{{POINT}}</b> My Points et <b>{{BUDGET}} €</b> de budget invitation</h6>
+        <hr style="border-top: 1px solid white">
+        <table width="100%">
+            <tr style="text-align: center">
+                <td width="50%">
+                    <a href="bbar"><img src="images/buddha_bar.png"></a>
+                </td>
+                <td>
+                    <a href="slot"><img src="images/jeton.svg" style="width: 50px;"></a>
+                </td>
+            </tr>
+            <tr style="text-align: center; color:beige;" >
+                <td colspan="2">Choisissez votre activité</td>
+            </tr>
+            <tr style="text-align: right; color:beige;" >
+                <td colspan="2"><br/><a href="logout">Déconnexion</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

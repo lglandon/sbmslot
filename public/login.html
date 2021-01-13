@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>SBM / Oracle Membre</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        html, body {
+            height: 100%;
+            background-color: #0e0e0e;
+            background-image: url(../images/casino-monaco.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<div class="d-flex h-100">
+    <!-- login box -->
+    <div class="m-auto" style="background-color: rgba(60,60,60,0.7); padding: 20px;">
+        <form action="/login" method="post">
+            <div class="form-group">
+                <h2 class="login-header" style="color: beige">Select a Member</h2>
+            </div>
+            <select name="member_id" id="member_id">
+                <option value="VXAZKWS">Charlie Jones</option>
+                <option value="ZNNH22U">Thomas Bill</option>
+                <option value="ZNNH22U">Glandon Laurent</option>
+            </select>
+            <hr/>
+            <div class="form-group">
+                <input type="submit" name="login-button" value="GO" class="submit-button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

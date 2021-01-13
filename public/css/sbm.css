@@ -58,7 +58,7 @@ body {
 }
 
 #totalpoint{
-  font: 16px/1 s7,monospace;
+  font: 32px/1 s7,monospace;
   color: #33eead;
   text-shadow: #444 0.4px 1px 1px;
   text-align: left;
@@ -78,6 +78,7 @@ body {
 }
 
 .header {
+  z-index: 50;
   margin: 0 auto;
   width: 600px;
   text-align: center;

@@ -6,6 +6,7 @@ COPY server.js ./
 
 ADD public ./public
 ADD uploads ./uploads
+ADD models ./models
 
 RUN npm ci --prod
 EXPOSE 9001
